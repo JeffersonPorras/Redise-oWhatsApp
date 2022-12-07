@@ -1,0 +1,130 @@
+:root {
+    --black: #333230;
+    --gray: #94a19d;
+    --white: #ffffff;
+    --dark-green:#29c1a7;
+    --light-green: #effffc;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display:grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.photo-woman {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 15px 0 0;
+}
+.photo-men {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 15px 0 0;
+}
+.photo-cat {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 15px 0 0;
+}
+.chat-container {
+    width: 320px;
+    height: 640px;
+    background:  var(--black);
+    border-radius: 32px;
+    display: grid;
+    grid-template-rows: 80px 560px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+header img {
+    width: 20px;
+    height: 20px;
+}
+.chat-person {
+    background: var(--light-green);
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    border-radius: 32px;
+}
+.chat-person__name {
+    text-align: center;
+    color: var(--black);
+    font-size: 12px;
+    margin: 20px 0 68px 0;
+}
+.chat-person__name p {
+    color: var(--gray);
+    margin-top: 5px;
+}
+.chat-conversation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.chat-person__woman{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat-container__text{
+    width: 150px;
+    height: 50px;
+    background: var(--white);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.chat-person__woman p {
+    font-size: 10px;
+    color: var(--dark-green);
+    margin: 0 15px;
+}
+.chat-person__woman span {
+    font-size: 12px;
+    color: var(--dark-green);
+}
+.chat-person_men{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat-container__text2{
+    width: 150px;
+    height: 50px;
+    background: var(--dark-green);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+}
+.chat-person_men p{
+    width:150px;
+    height: 50px;
+    border-radius: 10px 10px 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin: 0 15px;
+}
+.chat-person__men span {
+    font-size: 12px;
+    color: var(--dark-green);
+}
+.double-done {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px 0 15px;
+}
