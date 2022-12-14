@@ -17,14 +17,14 @@ body{
     margin: 0;
 }
 .photo-woman {
-    width: 30px;
-    height: 30px;
+    width: 2.4rem;
+    height: 2.4rem;
     border-radius: 50%;
     margin: 0px 10px 0 0;
 }
 .photo-men {
-    width: 30px;
-    height: 30px;
+    width: 2.4rem;
+    height: 2.4rem;
     border-radius: 50%;
     margin: 0px 0px 0 10px;
 }
@@ -34,13 +34,13 @@ body{
     border-radius: 14%;
 }
 .double-done__woman {
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
     margin: 0 5px 0 20px;
 }
 .double-done__men {
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
     margin: 0 20px 0 5px;
 }
 .chat-container {
@@ -49,7 +49,7 @@ body{
     background:  var(--black);
     border-radius: 32px;
     display: grid;
-    grid-template-rows: 60px 580px;
+    grid-template-rows: 60px 582px;
     position: relative;
 }
 header {
@@ -59,8 +59,8 @@ header {
     align-items: center;
 }
 header img {
-    width: 20px;
-    height: 20px;
+    width: 1.4rem;
+    height: 1.4rem;
 }
 .chat-person {
     background: var(--light-green);
@@ -71,7 +71,7 @@ header img {
 .chat-person__name {
     text-align: center;
     color: var(--black);
-    font-size: 8px;
+    font-size: 1rem;
     margin: 20px 0 50px 0;
 }
 .chat-person__name p {
@@ -98,11 +98,11 @@ header img {
     padding: 5px 15px;
 }
 .chat-person__woman p,div .chat-container__text {
-    font-size: 10px;
+    font-size: 0.8rem;
     color: var(--dark-green);
 }
 .chat-person__woman span, div span{
-    font-size: 10px;
+    font-size: 0.8rem;
     color: var(--dark-green);
 }
 .chat-person__men{
@@ -126,21 +126,22 @@ header img {
     border-radius: 10px 10px 10px 0;
     display: flex;
     align-items: center;
-    font-size: 10px;
+    font-size: 0.8rem;
     margin: 0 15px;
 }
 .chat-person__men span {
-    font-size: 10px;
+    font-size: 0.8rem;
     color: var(--dark-green);
+    display: flex;
 }
 .play img {
-    width: 1rem;
-    height: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
     margin-right: 10px;
 }
 .frecuency img {
-    width: 30px;
-    height: 20px;
+    width: 2rem;
+    height: 1rem;
 }
 footer {
     width: 320px;
@@ -165,14 +166,14 @@ footer {
     padding: 15px;
 }
 .footer-writingBar__right{
-    width: 60px;
+    width: 80px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 .footer-writingBar img {
-    width: 1rem;
-    height: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
 }
 .footer-voiceIcon {
     place-content: center;
@@ -184,6 +185,6 @@ footer {
     margin-right: 20px;
 }
 .footer-voiceIcon img {
-    width: 1rem;
-    height: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
 }
